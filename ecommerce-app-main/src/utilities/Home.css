@@ -1,9 +1,60 @@
 .main-container-home {
-    border: 2px solid;
-    height: 100vh;
+    /* border: 2px solid; */
 }
 
-.banner-div-home {
+/* .banner-div-home {
     border: 2px solid red;
-    height: 50vh;
+} */
+
+.banner-div-home img {
+    width: 100%;
+}
+
+.men-women-kid-fashion-home {
+    margin: 2em;
+}
+
+.heading-home {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #121212;
+    font-size: 23px;
+    opacity: 75%;
+}
+
+.heading-home h2 {
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 3.65em;
+    row-gap: 2em;
+}
+
+.product-default-home {
+    width: 20.5vw;
+    padding: 10px;
+}
+
+.product-default-home img {
+    width: 19vw;
+    height: 40vh;
+}
+
+.product-default-home a {
+    text-decoration: none;
+    color: #121212;
+}
+
+.product-default-home a:hover {
+    text-decoration: underline;
+}
+
+.product-default-home h3 {
+    font-weight: 450;
+    word-break: break-word;
 }
