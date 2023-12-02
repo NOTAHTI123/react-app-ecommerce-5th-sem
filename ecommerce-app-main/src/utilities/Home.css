@@ -1,0 +1,9 @@
+.main-container-home {
+    border: 2px solid;
+    height: 100vh;
+}
+
+.banner-div-home {
+    border: 2px solid red;
+    height: 50vh;
+}
