@@ -15,8 +15,6 @@ const Login_customer = (props) => {
                 <button className='login-button-login-page ' type="button">Sign in</button>
                 <Link className='clickable-Link create-customer-account-link-login-page' to='/create-customer-account'>Create Account</Link>
             </div>
-
-            
         </div>
     )
 }
