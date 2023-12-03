@@ -12,26 +12,53 @@ const Home = () => {
                         <h2>Latest in Men&apos;s Fashion</h2>
                     </div>
                     <div className="product-container">
+                        {/* 
+                            Syntax of product: -
+
+                            <div className="product-default-home">
+                                    <div className="product-details">
+                                        <img src="img-link" alt="" />
+                                        <a href="#"><h3>Name</h3></a>
+                                        <div className="rating">
+                                            Rating_Numeric Stars_graphical
+                                        </div>
+                                        <p>Rs {price}</p>
+                                    </div>
+                                <button className='product-view-now-button-home' type="button">View Now</button>
+                            </div>
+                        */}
                         <div className="product-default-home">
-                            <img src="https://raw.githubusercontent.com/NOTAHTI123/react-app-ecommerce-5th-sem/main/ecommerce-app-main/src/assets/images/male/male-1.jpg" alt="" />
-                            <a href="#"><h3>Salesianer Men&apos;s Short Sleeves Minor Fault Polo Shirt</h3></a>
-                            <p>Rs 599.00</p>
+                            <div className="product-details">
+                                <img src="https://raw.githubusercontent.com/NOTAHTI123/react-app-ecommerce-5th-sem/main/ecommerce-app-main/src/assets/images/male/male-1.jpg" alt="" />
+                                <a href="#"><h3>Salesianer Men&apos;s Short Sleeves Minor Fault Polo Shirt</h3></a>
+                                <p>Rs 599.00</p>
+                            </div>
+                            <button className='product-view-now-button-home' type="button">View Now</button>
                         </div>
     
                         <div className="product-default-home">
-                            <img src="https://raw.githubusercontent.com/NOTAHTI123/react-app-ecommerce-5th-sem/main/ecommerce-app-main/src/assets/images/male/male-2.jpg" alt="" />
-                            <a href="#"><h3>Aqua Men&apos;s Minor Fault Thermal Tee Shirt</h3></a>
-                            <p>Rs 599.00</p>
+                            <div className="product-details">
+                                <img src="https://raw.githubusercontent.com/NOTAHTI123/react-app-ecommerce-5th-sem/main/ecommerce-app-main/src/assets/images/male/male-2.jpg" alt="" />
+                                <a href="#"><h3>Aqua Men&apos;s Minor Fault Thermal Tee Shirt</h3></a>
+                                <p>Rs 599.00</p>
+                            </div>
+                            <button className='product-view-now-button-home' type="button">View Now</button>
                         </div>
                         <div className="product-default-home">
-                            <img src="https://raw.githubusercontent.com/NOTAHTI123/react-app-ecommerce-5th-sem/main/ecommerce-app-main/src/assets/images/male/male-3.jpg" alt="" />
-                            <a href="#"><h3>Eternity Men&apos;s Formal Button Down Dress Shirt</h3></a>
-                            <p>Rs 599.00</p>
+                            <div className="product-details">
+                                <img src="https://raw.githubusercontent.com/NOTAHTI123/react-app-ecommerce-5th-sem/main/ecommerce-app-main/src/assets/images/male/male-3.jpg" alt="" />
+                                <a href="#"><h3>Eternity Men&apos;s Formal Button Down Dress Shirt</h3></a>
+                                <p>Rs 599.00</p>
+                            </div>
+                            <button className='product-view-now-button-home' type="button">View Now</button>
                         </div>
                         <div className="product-default-home">
-                            <img src="https://raw.githubusercontent.com/NOTAHTI123/react-app-ecommerce-5th-sem/main/ecommerce-app-main/src/assets/images/male/male-4.jpg" alt="" />
-                            <a href="#"><h3>Polo Republica Men&apos;s Contrast Raglan Shoulder Minor Fault Terry Zipper Hoodie</h3></a>
-                            <p>Rs 599.00</p>
+                            <div className="product-details">
+                                <img src="https://raw.githubusercontent.com/NOTAHTI123/react-app-ecommerce-5th-sem/main/ecommerce-app-main/src/assets/images/male/male-4.jpg" alt="" />
+                                <a href="#"><h3>Polo Republica Men&apos;s Contrast Raglan Shoulder Minor Fault Terry Zipper Hoodie</h3></a>
+                                <p>Rs 599.00</p>
+                            </div>
+                            <button className='product-view-now-button-home' type="button">View Now</button>
                         </div>
 
                     </div>
@@ -46,25 +73,37 @@ const Home = () => {
                     </div>
                     <div className="product-container">
                         <div className="product-default-home">
-                            <img src="https://raw.githubusercontent.com/NOTAHTI123/react-app-ecommerce-5th-sem/main/ecommerce-app-main/src/assets/images/male/male-1.jpg" alt="" />
-                            <a href="#"><h3>High Spirits Women&apos;s Long Sleeve Denim Jumpsuit</h3></a>
-                            <p>Rs 1500</p>
+                            <div className="product-details">
+                                <img src="https://raw.githubusercontent.com/NOTAHTI123/react-app-ecommerce-5th-sem/main/ecommerce-app-main/src/assets/images/female/Female1.jpg" alt="" />
+                                <a href="#"><h3>High Spirits Women&apos;s Long Sleeve Denim Jumpsuit</h3></a>
+                                <p>Rs 1500</p>
+                            </div>
+                            <button className='product-view-now-button-home' type="button">View Now</button>
                         </div>
     
                         <div className="product-default-home">
-                            <img src="https://raw.githubusercontent.com/NOTAHTI123/react-app-ecommerce-5th-sem/main/ecommerce-app-main/src/assets/images/male/male-2.jpg" alt="" />
-                            <a href="#"><h3>East West Women&apos;s Model Girls Printed Short Sleeve Tee Shirt</h3></a>
-                            <p>Rs 769.00</p>
+                            <div className="product-details">
+                                <img src="https://raw.githubusercontent.com/NOTAHTI123/react-app-ecommerce-5th-sem/main/ecommerce-app-main/src/assets/images/female/Female2.jpg" alt="" />
+                                <a href="#"><h3>East West Women&apos;s Model Girls Printed Short Sleeve Tee Shirt</h3></a>
+                                <p>Rs 769.00</p>
+                            </div>
+                            <button className='product-view-now-button-home' type="button">View Now</button>
                         </div>
                         <div className="product-default-home">
-                            <img src="https://raw.githubusercontent.com/NOTAHTI123/react-app-ecommerce-5th-sem/main/ecommerce-app-main/src/assets/images/male/male-3.jpg" alt="" />
-                            <a href="#"><h3>East West Women&apos;s Stitched Suit</h3></a>
-                            <p>Rs 2100.00</p>
+                            <div className="product-details">
+                                <img src="https://raw.githubusercontent.com/NOTAHTI123/react-app-ecommerce-5th-sem/main/ecommerce-app-main/src/assets/images/female/Female3.jpg" alt="" />
+                                <a href="#"><h3>East West Women&apos;s Stitched Suit</h3></a>
+                                <p>Rs 2100.00</p>
+                            </div>
+                            <button className='product-view-now-button-home' type="button">View Now</button>
                         </div>
                         <div className="product-default-home">
-                            <img src="https://raw.githubusercontent.com/NOTAHTI123/react-app-ecommerce-5th-sem/main/ecommerce-app-main/src/assets/images/male/male-4.jpg" alt="" />
-                            <a href="#"><h3>East West Women&apos;s 2 Pc Stitched</h3></a>
-                            <p>Rs 2100.00</p>
+                            <div className="product-details">
+                                <img src="https://raw.githubusercontent.com/NOTAHTI123/react-app-ecommerce-5th-sem/main/ecommerce-app-main/src/assets/images/female/Female4.jpg" alt="" />
+                                <a href="#"><h3>East West Women&apos;s 2 Pc Stitched</h3></a>
+                                <p>Rs 2100.00</p>
+                            </div>
+                            <button className='product-view-now-button-home' type="button">View Now</button>
                         </div>
 
                     </div>
@@ -73,6 +112,29 @@ const Home = () => {
 
                 </div>
             </section>
+
+            <div className="footer-container-home">
+                <div className="image-container-footer-home">
+                    <img src="https://raw.githubusercontent.com/NOTAHTI123/resume/master/tsf-logo-header.png" alt="#" />
+                </div>
+                <div className="contact-us-container-footer-home">
+                    <div className="mailing-address-footer-home">
+                        <h4>Mailing Address</h4>
+                        <p>Exton industries ltd, 23 link road,<br /> Lahore, Pakistan</p>
+                    </div>
+                    <div className="clickable-links-a-footer-home">
+                        <h4>Contact Us</h4>
+                        <p><span>Email:- </span>exton@exton-cs.me</p>
+                        <p><span>Phone:- </span>+92-3164255-12</p>
+                    </div>
+                    <div className="links-container-footer-home">
+                        <i className='bx bxl-instagram'></i>
+                        <i className='bx bxl-facebook'></i>
+                        <i className='bx bxl-linkedin'></i>
+                        <p>&copy; 2023 Exton-cs.me</p>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
