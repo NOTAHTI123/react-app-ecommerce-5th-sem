@@ -10,6 +10,10 @@
 
 .container-header {
     height: 18vh;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
 }
 
 .logo-and-link-header {

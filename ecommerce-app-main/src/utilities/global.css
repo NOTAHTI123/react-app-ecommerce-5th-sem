@@ -7,13 +7,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.forgot-password {
+.clickable-Link {
     color: #121212;
     transition: .05s ease-in-out;
     font-weight: 200;
     font-size: 89%;
+    width: fit-content;
 }
 
-.forgot-password:hover {
+.clickable-Link:hover {
     font-weight: 400;
 }

@@ -10,10 +10,13 @@ const Login_customer = (props) => {
                     <input style={{margin: '40px 0 0 0 '}} type="text" className="input-text-login-page input-text-login-page-customer" placeholder='Email' id="" />
 
                     <input style={{margin: '30px 0 13px 0'}} type="text" className="input-text-login-page input-text-login-page-customer" placeholder='Password' id="" />
-                    <Link className='forgot-password forgot-password-customer' to='/forgot-password-customer-page'>Forgot Password?</Link>
+                    <Link className='clickable-Link forgot-password-customer' to='/forgot-password-customer-page'>Forgot Password?</Link>
                 </div>
                 <button className='login-button-login-page ' type="button">Sign in</button>
+                <Link className='clickable-Link create-customer-account-link-login-page' to='/create-customer-account'>Create Account</Link>
             </div>
+
+            
         </div>
     )
 }

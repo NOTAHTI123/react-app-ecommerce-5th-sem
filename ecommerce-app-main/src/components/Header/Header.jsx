@@ -9,7 +9,7 @@ const Header = (props) => {
                 <p>Get free shipping when you order over <span style={{color: '#ff9900'}}>Rs.2500</span></p>
             </div>
             <div className="logo-and-link-header">
-                <img src="https://raw.githubusercontent.com/NOTAHTI123/resume/master/tsf-logo-header.png" alt="" />
+                <Link to='/home'><img style={{userSelect: 'none'}} src="https://raw.githubusercontent.com/NOTAHTI123/resume/master/tsf-logo-header.png" alt="" /></Link>
 
                 <div className="clickable-links-header">
                     <Link to="/mens-page" className='clickable-link-element-header'>Men</Link>
@@ -33,7 +33,7 @@ const Header = (props) => {
                 <p>Get free shipping when you order over <span style={{color: '#ff9900'}}>Rs.2500</span></p>
             </div>
             <div className="logo-and-link-header">
-                <img src="https://raw.githubusercontent.com/NOTAHTI123/resume/master/tsf-logo-header.png" alt="" />
+                <Link to='/home'><img style={{userSelect: 'none'}} src="https://raw.githubusercontent.com/NOTAHTI123/resume/master/tsf-logo-header.png" alt="" /></Link>
 
                 <div className="clickable-links-header">
                     <Link to="/mens-page" className='clickable-link-element-header'>Men</Link>

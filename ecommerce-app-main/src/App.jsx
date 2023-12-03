@@ -5,6 +5,7 @@ import './utilities/global.css';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Login_customer from './components/Login_customer/Login_customer';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
             <Route path='/home' element={<Home />}></Route>
             <Route path='/login-customer-page' element={<Login_customer loggedIn={loggedIn} setLoggedin={setLoggedin} />} />
           </Routes>
+          <Footer />
         </QueryClientProvider>
     </BrowserRouter>
     </>
