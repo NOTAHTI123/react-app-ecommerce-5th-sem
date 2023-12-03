@@ -6,3 +6,14 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+.forgot-password {
+    color: #121212;
+    transition: .05s ease-in-out;
+    font-weight: 200;
+    font-size: 89%;
+}
+
+.forgot-password:hover {
+    font-weight: 400;
+}
