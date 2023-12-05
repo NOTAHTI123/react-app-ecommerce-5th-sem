@@ -29,6 +29,8 @@
     cursor: pointer;
     margin-top: 40px;
     transition: ease-in-out;
+    position: relative;
+    margin-left: 36.2%;
 }
 
 .input-details-essential {

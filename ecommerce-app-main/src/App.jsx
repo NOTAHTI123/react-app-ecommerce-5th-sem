@@ -14,9 +14,9 @@ import Customer_profile from './components/User_related/Customer_profile/Custome
 function App() {
 
   const [loggedIn, setLoggedin] = useState(false);
-  const [email, setEmail] = useState("Test");
-  const [username, setUsername] = useState("Test");
-  const [phone, setPhone] = useState("Test");
+  const [email, setEmail] = useState("");
+  const [username, setUsername] = useState("");
+  const [phone, setPhone] = useState("");
   const [address, setAddress] = useState("");
 
 
@@ -36,7 +36,7 @@ function App() {
           <Header loggedIn={loggedIn} />
           <Routes>
             <Route path='/' element={<Home />}></Route>
-            <Route path='/login-customer-page' element={<Login_customer loggedIn={loggedIn} setLoggedin={setLoggedin} />} />
+            <Route path='/login-customer-page' element={<Login_customer loggedIn={loggedIn} setLoggedin={setLoggedin} setUsername={setUsername} setPhone={setPhone} setEmail={setEmail} />} />
             <Route path='/create-customer-account' element={<Customer_account_create loggedIn={loggedIn} />} />
             <Route path='/forgot-password-customer-page' element={<Customer_forgot_password loggedIn={loggedIn} />} />
             <Route path='/customer-profile' element={<Customer_profile loggedIn={loggedIn} username={username} phone={phone} email={email} />} />
