@@ -4,7 +4,7 @@ const Footer = () => {
     return(
         <div className="footer-container-home">
                 <div className="image-container-footer-home">
-                    <img src="https://raw.githubusercontent.com/NOTAHTI123/react-app-ecommerce-5th-sem/main/ecommerce-app-main/src/assets/images/tsf-logo-footer.png" alt="#" />
+                    <img style={{userSelect: 'none'}} src="https://raw.githubusercontent.com/NOTAHTI123/react-app-ecommerce-5th-sem/main/ecommerce-app-main/src/assets/images/tsf-logo-footer.png" alt="#" />
                 </div>
                 <div className="contact-us-container-footer-home">
                     <div className="mailing-address-footer-home">

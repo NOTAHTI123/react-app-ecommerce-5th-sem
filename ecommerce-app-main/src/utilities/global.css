@@ -18,3 +18,32 @@
 .clickable-Link:hover {
     font-weight: 400;
 }
+
+.login-signup-button {
+    width: 6em;
+    height: 3em;
+    color: white;
+    background-color: black;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: ease-in-out;
+}
+
+.input-details-essential {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-signup-input-text  {
+    height: 5vh;
+    width: 20vw;
+    padding: 4px;
+}
+
+.second-container-login-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

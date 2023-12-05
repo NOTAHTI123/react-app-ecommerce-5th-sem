@@ -74,3 +74,10 @@
     color: black;
     background-color: white;
 }
+
+/* Inside Header.css */
+.clickable-link-element-header,
+.user-clickable-button-header {
+  color: #121212; /* Use the default text color */
+  text-decoration: none; /* Remove underlines */
+}

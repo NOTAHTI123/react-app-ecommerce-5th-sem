@@ -1,0 +1,30 @@
+.nav-bar-left-customer {
+    display: flex;
+    flex-direction: column;
+    width: 13vw;
+}
+
+.button-nav-bar-left {
+    width: 12.8vw;
+    height: 10vh;
+    color: white;
+    background-color: black;
+    border-width: 1px;
+    cursor: pointer;
+    transition: .22s ease-in-out;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 0 0 20.2px 0;
+}
+
+.container-div-customer_profile {
+    display: flex;
+}
+
+.customer-profile-main-div {
+    margin-left: 3em;
+}
+
+.customer-profile-main-div p {
+    line-height: 60px;
+}

@@ -9,7 +9,7 @@ const Header = (props) => {
                 <p>Get free shipping when you order over <span style={{color: '#ff9900'}}>Rs.2500</span></p>
             </div>
             <div className="logo-and-link-header">
-                <Link to='/home'><img style={{userSelect: 'none'}} src="https://raw.githubusercontent.com/NOTAHTI123/resume/master/tsf-logo-header.png" alt="" /></Link>
+                <Link to='/'><img style={{userSelect: 'none'}} src="https://raw.githubusercontent.com/NOTAHTI123/resume/master/tsf-logo-header.png" alt="" /></Link>
 
                 <div className="clickable-links-header">
                     <Link to="/mens-page" className='clickable-link-element-header'>Men</Link>
@@ -20,9 +20,9 @@ const Header = (props) => {
                 </div>
 
                 <div className="user-buttons-header">
-                    <span className="material-symbols-outlined user-clickable-button-header">search</span>
-                    <span className="material-symbols-outlined user-clickable-button-header">person</span>
-                    <span className="material-symbols-outlined user-clickable-button-header">shopping_bag</span>
+                    <Link><span className="material-symbols-outlined user-clickable-button-header" style={{textDecoration:'none'}}>search</span></Link>
+                    <Link to='/customer-profile'><span className="material-symbols-outlined user-clickable-button-header">person</span></Link>
+                    <Link><span className="material-symbols-outlined user-clickable-button-header">shopping_bag</span></Link>
                 </div>
             </div>
         </div>
@@ -33,7 +33,7 @@ const Header = (props) => {
                 <p>Get free shipping when you order over <span style={{color: '#ff9900'}}>Rs.2500</span></p>
             </div>
             <div className="logo-and-link-header">
-                <Link to='/home'><img style={{userSelect: 'none'}} src="https://raw.githubusercontent.com/NOTAHTI123/resume/master/tsf-logo-header.png" alt="" /></Link>
+                <Link to='/'><img style={{userSelect: 'none'}} src="https://raw.githubusercontent.com/NOTAHTI123/resume/master/tsf-logo-header.png" alt="" /></Link>
 
                 <div className="clickable-links-header">
                     <Link to="/mens-page" className='clickable-link-element-header'>Men</Link>
